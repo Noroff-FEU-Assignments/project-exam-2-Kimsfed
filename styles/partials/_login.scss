@@ -1,0 +1,30 @@
+.login_container {
+  input {
+    display: block;
+    width: 40%;
+    padding: 5px;
+    border: none;
+    border-bottom: 2px solid black;
+    font-size: 16px;
+    font-family: $main-navigation-typography;
+    margin: auto;
+    margin-bottom: 40px;
+    margin-top: 20px;
+  }
+  button {
+    background-color: $main-color;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    margin: auto;
+  }
+  button:hover {
+    cursor: pointer;
+    padding: 16px 33px;
+    opacity: 80%;
+  }
+}

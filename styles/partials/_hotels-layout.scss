@@ -1,0 +1,52 @@
+.border-top {
+  width: 80%;
+  height: 20px;
+  margin: auto;
+  background-color: $main-color;
+}
+.search-bar_container {
+  width: 100%;
+  height: fit-content;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  input {
+    width: 30%;
+    padding: 5px;
+    border: none;
+    border-bottom: 2px solid black;
+    font-size: 16px;
+    font-family: $main-navigation-typography;
+  }
+}
+
+.content_container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.hotel_container {
+  width: 300px;
+  margin: auto;
+  padding: 10px 30px 10px 30px;
+
+  img {
+    height: 300px;
+    width: 300px;
+  }
+  a {
+    color: black;
+    text-decoration: none;
+    font-family: $secondary-title-typography;
+  }
+  a:hover {
+    color: $main-color;
+  }
+  img:hover {
+    opacity: 80%;
+  }
+}

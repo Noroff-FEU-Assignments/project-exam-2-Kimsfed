@@ -1,0 +1,126 @@
+.enquiries_container {
+  width: 80%;
+  margin: auto;
+
+  h2 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 32px;
+    font-family: $secondary-title-typography;
+  }
+
+  .enquiries-messages_container {
+    h4 {
+      margin-bottom: 5px;
+      font-family: $secondary-title-typography;
+    }
+    p {
+      margin-bottom: 25px;
+      font-family: $paragraph-typograph;
+      font-size: 14px;
+    }
+  }
+}
+
+.messages_container {
+  padding-top: 30px;
+  width: 80%;
+  margin: auto;
+
+  h2 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 32px;
+    font-family: $secondary-title-typography;
+  }
+
+  h4 {
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-top: 5px;
+    font-family: $secondary-title-typography;
+  }
+  p {
+    margin-bottom: 25px;
+    margin-top: 5px;
+    margin-left: 5px;
+    font-family: $paragraph-typograph;
+    font-size: 14px;
+  }
+  .direct-messages_container {
+    border: 2px solid black;
+  }
+}
+
+.add-hotel_container {
+  width: 80%;
+  margin: auto;
+  margin-top: 55px;
+
+  h2 {
+    padding-bottom: 20px;
+    font-size: 32px;
+    font-family: $secondary-title-typography;
+  }
+  input {
+    display: block;
+    width: 40%;
+    padding: 5px;
+    border: none;
+    border-bottom: 2px solid black;
+    font-size: 16px;
+    font-family: $main-navigation-typography;
+    margin: auto;
+    margin-bottom: 40px;
+    margin-top: 20px;
+  }
+  textarea {
+    display: block;
+    width: 50%;
+    height: 150px;
+    margin: auto;
+    font-family: $main-navigation-typography;
+    color: black;
+  }
+  button {
+    background-color: $main-color;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    margin: auto;
+  }
+  button:hover {
+    cursor: pointer;
+    padding: 16px 33px;
+    opacity: 80%;
+  }
+}
+
+.logout_container {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  margin-top: 55px;
+  margin-bottom: 55px;
+
+  button {
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    margin: auto;
+  }
+  button:hover {
+    cursor: pointer;
+    padding: 16px 33px;
+    opacity: 80%;
+  }
+}

@@ -1,0 +1,84 @@
+.home-navigation_container {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+
+  a {
+    text-decoration: none;
+    color: $main-color;
+    font-size: 32px;
+    font-family: $main-navigation-typography;
+  }
+}
+
+.slug_container {
+  text-align: center;
+
+  h2 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 32px;
+    font-family: $secondary-title-typography;
+  }
+  .price-tag {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: fit-content;
+    border-bottom: 2px solid $main-color;
+    font-family: $secondary-title-typography;
+    font-size: 21px;
+  }
+  .hotel_description {
+    width: 80%;
+    margin: auto;
+    font-size: 16px;
+    font-family: $paragraph-typograph;
+  }
+  img {
+    width: 500px;
+    height: 500px;
+  }
+}
+.enquiry_container {
+  width: 100%;
+  margin-top: 30px;
+
+  h3 {
+    margin-bottom: 30px;
+    font-size: 22px;
+    font-family: $secondary-title-typography;
+  }
+
+  input {
+    display: block;
+    width: 40%;
+    padding: 5px;
+    border: none;
+    border-bottom: 2px solid black;
+    font-size: 16px;
+    font-family: $main-navigation-typography;
+    margin: auto;
+    margin-bottom: 40px;
+    margin-top: 20px;
+  }
+  button {
+    background-color: $main-color;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    margin: auto;
+  }
+  button:hover {
+    cursor: pointer;
+    padding: 16px 33px;
+    opacity: 80%;
+  }
+}
+.fas:hover {
+  color: black;
+}

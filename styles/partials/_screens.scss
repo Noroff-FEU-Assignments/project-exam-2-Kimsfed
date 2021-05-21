@@ -1,0 +1,97 @@
+@media screen and (min-width: 1500px) {
+  body {
+    max-width: 1187px;
+  }
+}
+@media screen and (max-width: 850px) {
+  body {
+    width: 100%;
+  }
+  .header_container {
+    display: block;
+    .header_title-container {
+      width: 100%;
+    }
+    .navigation_container {
+      position: fixed;
+      bottom: 0;
+      z-index: 1;
+      width: 100%;
+      text-align: center;
+      margin: auto;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      background-color: $main-color;
+      ul {
+        display: inline-block;
+        margin: auto;
+        background-color: $main-color;
+
+        li {
+          width: fit-content;
+          background-color: $main-color;
+          color: white;
+          a {
+            background-color: $main-color;
+            color: white;
+            font-size: 22px;
+          }
+          a:hover {
+            color: black;
+          }
+          a:active {
+            color: black;
+          }
+        }
+      }
+    }
+  }
+  .hotel_container {
+    margin: auto;
+    div {
+      text-align: center;
+    }
+
+    img {
+      height: 150px;
+      width: 150px;
+      margin: auto;
+    }
+  }
+  .home-navigation_container {
+    width: 90%;
+    margin: auto;
+  }
+  .slug_container {
+    width: 90%;
+    margin: auto;
+
+    img {
+      width: 250px;
+      height: 250px;
+    }
+    .hotel_description {
+      font-size: 13px;
+      width: 70%;
+    }
+  }
+
+  .enquiry_container {
+    width: 90%;
+    margin: auto;
+    margin-top: 30px;
+
+    input {
+      display: block;
+      min-width: 212px;
+      padding: 5px;
+      border: none;
+      border-bottom: 2px solid black;
+      font-size: 16px;
+      font-family: $main-navigation-typography;
+      margin: auto;
+      margin-bottom: 40px;
+      margin-top: 20px;
+    }
+  }
+}
